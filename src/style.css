@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+header {
+  background-color: #2e3b4e;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  margin: 10px 0;
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+main {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+footer {
+  background-color: #2e3b4e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.App {
+  max-width: 900px;
+  margin: auto;
+}
+
+.record-form {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.record-form input,
+.record-form textarea {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.record-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.record-form button {
+  padding: 10px;
+  background-color: #2e3b4e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.record-form button:hover {
+  opacity: 0.85;
+}
+
+.record-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.record-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
+}
+
+.record-card h3 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.record-card p {
+  font-size: 14px;
+}
